@@ -109,7 +109,7 @@ const Header = ({
                   />
                 </div>
 
-                <button className="flex items-center justify-center gap-4 bg-[color:hsl(26,100%,55%)] shadow-lg shadow-orange-500/50  w-full py-4 px-6 text-white mt- rounded-xl cursor-pointer lg:h-[50px] lg:mt-5">
+                <button className="flex items-center justify-center gap-4 bg-[color:hsl(26,100%,55%)] shadow-lg shadow-orange-500/50  w-full py-4 px-6 text-white mt-10 rounded-xl cursor-pointer lg:h-[50px] lg:mt-5">
                   Checkout
                 </button>
               </div>
