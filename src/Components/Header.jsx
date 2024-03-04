@@ -20,20 +20,20 @@ const Header = ({
             alt="icon-menu"
             className="lg:hidden sm: block"
           />
-          <h1 className="text-3xl font-bold text-[color:hsl(220,13%,3%)] mb-2">
+          <header className="text-3xl font-bold text-[color:hsl(220,13%,3%)] mb-2">
             sneakers
-          </h1>
+          </header>
 
-          <div className="sm: hidden lg:flex items-center text-[color:hsl(219,9%,45%)] gap-6 ml-10 font-medium text-[14px] cursor-pointer">
+          <nav className="sm: hidden lg:flex items-center text-[color:hsl(219,9%,45%)] gap-6 ml-10 font-medium text-[14px] cursor-pointer">
             <p className="hover:underline underline-offset-[31px] decoration-orange-500 decoration-[3px]">Collections</p>
             <p className="hover:underline underline-offset-[31px] decoration-orange-500 decoration-[3px]">Men</p>
             <p className="hover:underline underline-offset-[31px] decoration-orange-500 decoration-[3px]">Women</p>
             <p className="hover:underline underline-offset-[31px] decoration-orange-500 decoration-[3px]">About</p>
             <p className="hover:underline underline-offset-[31px] decoration-orange-500 decoration-[3px]">Contact</p>
-          </div>
+          </nav>
         </div>
 
-        <div className="flex items-center gap-5 lg:gap-10">
+        <nav className="flex items-center gap-5 lg:gap-10">
           <img
             onClick={onModalToggle}
             className="relative lg:w-4 sm:w-7 cursor-pointer"
@@ -52,7 +52,7 @@ const Header = ({
             width={35}
             className="cursor-pointer border-2 border-white hover:border-2 hover:border-orange-500 rounded-full"
           />
-        </div>
+        </nav>
       </div>
 
       {menuOpen && (

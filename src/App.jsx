@@ -46,7 +46,7 @@ const App = () => {
 
   return (
     <>
-    <div className='lg:w-[1100px] m-auto'>
+    <main className='lg:w-[1100px] m-auto'>
     <Header 
     count={count}
     handleAddToCart={handleAddToCart}
@@ -65,7 +65,7 @@ const App = () => {
     handleAddToCart={handleAddToCart}
     images={imageURLs}
     />
-    </div>
+    </main>
     </>
   )
 }
