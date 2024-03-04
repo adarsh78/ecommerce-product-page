@@ -33,7 +33,7 @@ const Header = ({
           </nav>
         </div>
 
-        <nav className="flex items-center gap-5 lg:gap-10">
+        <aside className="flex items-center gap-5 lg:gap-10">
           <img
             onClick={onModalToggle}
             className="relative lg:w-4 sm:w-7 cursor-pointer"
@@ -52,7 +52,7 @@ const Header = ({
             width={35}
             className="cursor-pointer border-2 border-white hover:border-2 hover:border-orange-500 rounded-full"
           />
-        </nav>
+        </aside>
       </div>
 
       {menuOpen && (
